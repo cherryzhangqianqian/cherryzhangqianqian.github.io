@@ -4,12 +4,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>【About】 | 沫小亲-z</title>
 <meta name="description" content="Hello  My Blog" />
-<link rel="shortcut icon" href="https://cherryzhangqianqian.github.io/favicon.ico?v=1571897039373">
+<link rel="shortcut icon" href="https://cherryzhangqianqian.github.io/favicon.ico?v=1571897607717">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://cherryzhangqianqian.github.io/styles/main.css">
-
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
@@ -21,7 +19,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://cherryzhangqianqian.github.io">
-  <img class="avatar" src="https://cherryzhangqianqian.github.io/images/avatar.png?v=1571897039373" alt="">
+  <img class="avatar" src="https://cherryzhangqianqian.github.io/images/avatar.png?v=1571897607717" alt="">
   </a>
   <h1 class="site-title">
     沫小亲-z
@@ -153,15 +151,27 @@
             </div>
           </article>
         </div>
+<!--评论显示区，请插入合适的位置-->
+    <div class="comment"></div>
 
-        <div id="vcomments"></div>
+ <!--载入js，在</body>之前插入即可-->
+    <!--Leancloud 操作库:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库-->
+    <script src="你托管的Valine路径./dist/Valine.min.js"></script>
     <script>
         new Valine({
-            el: '#vcomments',
-            appId: 'm9nIHMjoiDDs16mM11FQuazV-gzGzoHsz',
-            appKey: 'm2xuzjzM9I9wLiz9xDBi8mRE'
-        })
+            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+            av: AV, 
+            el: '.comment',
+            emoticon_url: 'https://cloud.panjunwen.com/alu',
+      emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"],
+      app_id: 'm9nIHMjoiDDs16mM11FQuazV-gzGzoHsz',
+      app_key: '你的key',
+      placeholder: 'm2xuzjzM9I9wLiz9xDBi8mRE'
+        });
     </script>
+
 
         
 
