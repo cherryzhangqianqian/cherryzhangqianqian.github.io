@@ -351,13 +351,13 @@ td {
   padding: 0 24px;
 }
 .zqq {
-  background: antiquewhite;
-  padding: 30px 0;
-  margin-bottom: 20px;
+  background-image: url(https://moxiaoqin.club/media/images/home-bg.jpg);
+  padding: 200px 0 0 0;
+  margin-bottom: -68px;
 }
 .site-header {
   background: aliceblue;
-  padding: 48px 0;
+  padding: 0 0 48px 0;
   text-align: center;
 }
 .site-header .site-title {
