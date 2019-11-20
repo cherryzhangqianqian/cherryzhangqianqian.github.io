@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://moxiaoqin.club</id>
     <title>沫小亲-z</title>
-    <updated>2019-11-13T10:08:23.060Z</updated>
+    <updated>2019-11-20T08:12:32.380Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://moxiaoqin.club"/>
     <link rel="self" href="https://moxiaoqin.club/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://moxiaoqin.club/images/avatar.png</logo>
     <icon>https://moxiaoqin.club/favicon.ico</icon>
     <rights>All rights reserved 2019, 沫小亲-z</rights>
+    <entry>
+        <title type="html"><![CDATA[2019款13寸定制mbp【香】]]></title>
+        <id>https://moxiaoqin.club/post/2019-kuan-13-cun-ding-zhi-mbpxiang</id>
+        <link href="https://moxiaoqin.club/post/2019-kuan-13-cun-ding-zhi-mbpxiang">
+        </link>
+        <updated>2019-11-20T07:24:23.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Valine 配置博客配置邮箱提醒出现535【解决方案】]]></title>
         <id>https://moxiaoqin.club/post/valine-pei-zhi-bo-ke-pei-zhi-you-xiang-ti-xing-chu-xian-535jie-jue-fang-an</id>
